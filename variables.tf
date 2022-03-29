@@ -1,4 +1,4 @@
-variable "" {
+variable "subscriptionid" {
   default = {}
 }
 variable "" {
