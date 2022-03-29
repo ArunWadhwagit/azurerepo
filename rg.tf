@@ -2,10 +2,10 @@ resource "azurerm_resource_group" "RG-15march" {
   name     = "RG-15march"
   location = "eastus"
 }
-resource "azurerm_resource_group" "rgfordisk" {
-  name     = "rgfordisk"
-  location = "eastus"
-}
+# resource "azurerm_resource_group" "rgfordisk" {
+#   name     = "rgfordisk"
+#   location = "eastus"
+# }
 #################Example for defining variables other than default###################
 # resource "azurerm_resource_group" "rgforvar" {
 #   name     = var.rgforvar
