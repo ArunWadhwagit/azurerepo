@@ -1,12 +1,12 @@
 variable "subscriptionid" {
   default = {}
 }
-variable "" {
+variable "clientid" {
   default = {}
 }
-variable "" {
+variable "clientsecret" {
   default = {}
 }
-variable "" {
+variable "tenantid" {
   default = {}
 }
